@@ -123,7 +123,7 @@ cd open_pdks
 sudo make
 sudo make install
 ```
-**Finally, we comleted the whole installation process !!**
+**Finally, we completed the whole installation process !!**
 
 ## Reference
 - [http://opencircuitdesign.com/open_pdks/index.html](http://opencircuitdesign.com/open_pdks/index.html)
