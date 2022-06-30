@@ -49,7 +49,7 @@ It is used to perform a process called LVS (Layout VS Schematic), checking wheth
 git clone https://github.com/RTimothyEdwards/netgen
 cd netgen/
 ./configure 
-sudo make 
+make 
 sudo checkinstall --default --pkgname=netgen
 cd
 ```
@@ -59,7 +59,7 @@ It is a layout tool for you to create the layout of your analog IC
 git clone https://github.com/RTimothyEdwards/magic
 cd magic/
 ./configure
-sudo make
+make
 sudo checkinstall --default --pkgname=magic
 cd
 ```
@@ -69,7 +69,7 @@ It is a schematic editor for your to create schematic and generate netlist for s
 git clone https://github.com/StefanSchippers/xschem.git
 cd xschem/
 ./configure
-sudo make
+make
 sudo checkinstall --default --pkgname=xschem
 cd
 ```
@@ -82,7 +82,7 @@ cd ngspice/
 mkdir release
 cd release 
 ../configure --with-x --enable-xspice --disable-debug --enable-cider --with-readline=yes --enable-openmp
-sudo make
+make
 sudo checkinstall --default --pkgname=ngspice
 cd
 ```
@@ -92,9 +92,10 @@ It is a analog waveform viewer
 ```
 git clone https://github.com/StefanSchippers/xschem-gaw.git
 cd xschem-gaw
+
 aclocal && automake --add-missing && autoconf
 ./configure
-sudo make
+make
 sudo checkinstall --default --pkgname=xschem-gaw --pkgversion=0.1
 cd
 ```
