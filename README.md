@@ -118,10 +118,10 @@ cd
 ```
 3b.  Installing the PDK in open PDK format.
 ```
-git clone https://github.com/RTimothyEdwards/open_pdks.git
+git clone https://github.com/RTimothyEdwards/open_pdks
 cd open_pdks
 ./configure --enable-sky130-pdk=~/skywater-pdk/libraries/
-sudo make
+make
 sudo make install
 ```
 **Finally, we completed the whole installation process !!**
