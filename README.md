@@ -120,7 +120,7 @@ cd
 ```
 git clone https://github.com/RTimothyEdwards/open_pdks.git
 cd open_pdks
-./configure --enable-sky130-pdk=path_to_skywater_pdk_libraries
+./configure --enable-sky130-pdk=~/skywater-pdk/libraries/
 sudo make
 sudo make install
 ```
