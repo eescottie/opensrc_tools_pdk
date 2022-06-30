@@ -66,7 +66,7 @@ cd
 2c.  Installing Xschem.  
 It is a schematic editor for your to create schematic and generate netlist for simulation
 ```
-git clone https://github.com/StefanSchippers/xschem.git
+git clone https://github.com/StefanSchippers/xschem
 cd xschem/
 ./configure
 make
@@ -90,10 +90,10 @@ cd
 
 It is a analog waveform viewer
 ```
-git clone https://github.com/StefanSchippers/xschem-gaw.git
+git clone https://github.com/StefanSchippers/xschem-gaw
 cd xschem-gaw
-
 aclocal && automake --add-missing && autoconf
+sed -i 's/GETTEXT_MACRO_VERSION = 0.18/GETTEXT_MACRO_VERSION = 0.20/' ./po/Makefile.in.in
 ./configure
 make
 sudo checkinstall --default --pkgname=xschem-gaw --pkgversion=0.1
