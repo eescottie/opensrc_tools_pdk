@@ -76,7 +76,7 @@ sudo checkinstall --default --pkgname=xschem
 cd
 ```
 2d.  Installing NGSPICE.  
-It is a simulator used to evaluate the behaviour of your analog circuit
+It is a simulator used to evaluate the behaviour of your analog circuit.  Be patient, the installation time of NGSPICE is long.
 ```
 git clone git://git.code.sf.net/p/ngspice/ngspice
 cd ngspice/
