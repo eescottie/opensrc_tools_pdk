@@ -1,6 +1,6 @@
 ## Objective of Page
 To record the procedure of installing different open-source tools and the open-source PDK on the Ubuntu OS.
-For those who do not want to go through the installation process, I include the link to download the VirtualBox image [here](!).  
+For those who do not want to go through the installation process, I include the link to download the VirtualBox image [here](https://gohkust-my.sharepoint.com/:u:/g/personal/eescottie_ust_hk/Ebqbb8-q0b5FnH5je9rRQ1QByQP9HLnXeNK9rwZY6Z-3sA).  
 Go [here](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/ovf.html#ovf-import-appliance) to find out how to import the image to VirtualBox.
 The image has all the open-source tools and PDK installed.
 Go there to start your analog circuit design.  You can also go to [here](https://github.com/eescottie/opensrc_analog) if you want a jumpstart on how to use the tools.
@@ -11,7 +11,7 @@ A virtual machine is needed to run the Ubunut OS assuming your PC is currently r
 Simply follow the steps in [here](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview), which enables you to run the Ubuntu Desktop using the VirtualBox.
 During the setup of VirtualBox, please pay attention to the following two items:
 1. Make sure you record down your user password.  We need it later during the tools and the PDK installation.
-2. At the step of "Create Virtual Hard Disk", make sure you allocate around 30GB space as after installation 20GB is used up by the OS, tools, and PDK.
+2. At the step of "Create Virtual Hard Disk", make sure you allocate around 30GB space as after installation around 20GB is used up by the OS, tools, and PDK.
 Once you can successfully run the Ubuntu OS using VirtualBox, we can now install the tools and the PDK.
 
 ## Installation of Open-Source Tools and Open-Source PDK
