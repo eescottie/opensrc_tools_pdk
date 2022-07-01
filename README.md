@@ -1,8 +1,9 @@
 ## Objective of Page
-To record down the procedure of installing different open-source tools and the open-source PDK on the Ubuntu OS.
-For those who do not want to go through the installation process, I include the link to download the VirtualBox image [here](!).
-You can download the image and following the procedure stated [here](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/ovf.html#ovf-import-appliance) to import the image into VirtualBox.
-The image has all different open-source tools and the open-source PDK installed.  Follow the setup procedure stated [here](https://github.com/eescottie/opensrc_analog) and start your analog circuit design :)
+To record the procedure of installing different open-source tools and the open-source PDK on the Ubuntu OS.
+For those who do not want to go through the installation process, I include the link to download the VirtualBox image [here](!).  
+Go [here](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/ovf.html#ovf-import-appliance) to find out how to import the image to VirtualBox.
+The image has all the open-source tools and PDK installed.
+Go there to start your analog circuit design.  You can also go to [here](https://github.com/eescottie/opensrc_analog) if you want a jumpstart on how to use the tools.
 
 ## Ubuntu 22.04 and VirtualBox
 To run those open-source tools and use the open-source PDK, we need a linux OS.  **We will use Ubuntu 22.04** (Make sure you download the correct verison).
@@ -13,9 +14,10 @@ During the setup of VirtualBox, please pay attention to the following two items:
 2. At the step of "Create Virtual Hard Disk", make sure you allocate at least ~50GB space.  We need those space during the installation process.
 Once you can successfully run the Ubuntu OS using VirtualBox, we can now install the tools and the PDK.
 
-## Installion of Open-Source Tools and Open-Source PDK
+## Installation of Open-Source Tools and Open-Source PDK
 The following installation instructions are digested from the materials listed in the reference section.
 Simply executing the following commands one by one to finish the whole installation process.
+Of course you can group all of them into one shell script.  I do think this give us a better idea what exactly we are going to install.
 
 **First, we have to make sure the Ubuntu OS has all necessary libraries to complete the later installation process:**
 
