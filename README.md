@@ -11,13 +11,13 @@ A virtual machine is needed to run the Ubunut OS assuming your PC is currently r
 Simply follow the steps in [here](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview), which enables you to run the Ubuntu Desktop using the VirtualBox.
 During the setup of VirtualBox, please pay attention to the following two items:
 1. Make sure you record down your user password.  We need it later during the tools and the PDK installation.
-2. At the step of "Create Virtual Hard Disk", make sure you allocate at least ~50GB space.  We need those space during the installation process.
+2. At the step of "Create Virtual Hard Disk", make sure you allocate around 30GB space as after installation 20GB is used up by the OS, tools, and PDK.
 Once you can successfully run the Ubuntu OS using VirtualBox, we can now install the tools and the PDK.
 
 ## Installation of Open-Source Tools and Open-Source PDK
 The following installation instructions are digested from the materials listed in the reference section.
 Simply executing the following commands one by one to finish the whole installation process.
-Of course you can group all of them into one shell script.  I do think this give us a better idea what exactly we are going to install.
+Of course you can group all of them into one shell script.  I do think the following can give us a better idea what exactly are installed.
 
 **First, we have to make sure the Ubuntu OS has all necessary libraries to complete the later installation process:**
 
